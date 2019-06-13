@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "lukaszu",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "documentation": "^11.0.1",
+    "fastify": "^2.5.0",
+    "fastify-swagger": "^2.4.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.5.15",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^8.3.2",
+    "restify-errors": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
